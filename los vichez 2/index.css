@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle,#b94bf8,#3a1957);
+    background-repeat: no-repeat;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template:100px 200px 150px / 300px 250px 150px;    
+    /*grid-template: 
+    "first first first" 100px
+    "center center center" 200px
+    "last. ."150px/
+    300px 250px;*/                   
+}
+.grid-item{
+    border:2px solid;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    color: #000;
+
+}
+.grid-item:first-child,
+.grid-item:nth-child(2),
+.grid-item:nth-child(3){
+    background: limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
